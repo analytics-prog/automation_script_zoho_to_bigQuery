@@ -1,0 +1,895 @@
+2025-08-06 23:10:54,662 - __main__ - INFO - Sample deal: ID=8808000065191202, Name=Simarjit Gill
+2025-08-06 23:10:54,663 - __main__ - INFO - Sample deal has 63 non-null fields out of 180 total fields
+2025-08-06 23:10:55,515 - __main__ - INFO - Sample transformed fields:
+2025-08-06 23:10:55,516 - __main__ - INFO -   owner: {"name": "Jacqueline Garcia", "id": "8808000005757104", "email": "jacqueline.l@getmycourse.com.au"}
+2025-08-06 23:10:55,516 - __main__ - INFO -   deal_name: Simarjit Gill
+2025-08-06 23:10:55,516 - __main__ - INFO -   closing_date: None
+2025-08-06 23:10:55,516 - __main__ - INFO -   account_name: None
+2025-08-06 23:10:55,516 - __main__ - INFO -   stage: EOI Received - No payment Received yet
+2025-08-06 23:10:56,089 - automated_deals_complete_sync - INFO - Dataset zoho_crm_data already exists
+2025-08-06 23:10:57,036 - automated_deals_complete_sync - INFO - Created table arboreal-logic-467306-k0.zoho_crm_data.deals_complete with 173 fields
+2025-08-06 23:10:59,793 - automated_deals_complete_sync - INFO - Successfully inserted 2 deals into BigQuery
+2025-08-06 23:11:02,146 - __main__ - INFO - Table now contains 2 rows
+2025-08-06 23:13:01,094 - __main__ - INFO - Sample deal: ID=8808000065191202, Name=Simarjit Gill
+2025-08-06 23:13:01,094 - __main__ - INFO - Sample deal has 63 non-null fields out of 180 total fields
+2025-08-06 23:13:01,956 - __main__ - INFO - Sample transformed fields:
+2025-08-06 23:13:01,957 - __main__ - INFO -   owner: {"name": "Jacqueline Garcia", "id": "8808000005757104", "email": "jacqueline.l@getmycourse.com.au"}
+2025-08-06 23:13:01,957 - __main__ - INFO -   deal_name: Simarjit Gill
+2025-08-06 23:13:01,957 - __main__ - INFO -   closing_date: None
+2025-08-06 23:13:01,958 - __main__ - INFO -   account_name: None
+2025-08-06 23:13:01,958 - __main__ - INFO -   stage: EOI Received - No payment Received yet
+2025-08-06 23:13:02,506 - automated_deals_complete_sync - INFO - Dataset zoho_crm_data already exists
+2025-08-06 23:13:03,028 - automated_deals_complete_sync - INFO - Table arboreal-logic-467306-k0.zoho_crm_data.deals_complete already exists
+2025-08-06 23:13:05,477 - automated_deals_complete_sync - INFO - Successfully inserted 2 deals into BigQuery
+2025-08-06 23:13:07,299 - __main__ - INFO - Table now contains 4 rows
+2025-08-06 23:13:52,147 - __main__ - INFO - Sample deal: ID=8808000065191202, Name=Simarjit Gill
+2025-08-06 23:13:52,148 - __main__ - INFO - Sample deal has 63 non-null fields out of 180 total fields
+2025-08-06 23:13:52,947 - __main__ - INFO - Sample transformed fields:
+2025-08-06 23:13:52,947 - __main__ - INFO -   owner: {"name": "Jacqueline Garcia", "id": "8808000005757104", "email": "jacqueline.l@getmycourse.com.au"}
+2025-08-06 23:13:52,948 - __main__ - INFO -   deal_name: Simarjit Gill
+2025-08-06 23:13:52,948 - __main__ - INFO -   closing_date: None
+2025-08-06 23:13:52,949 - __main__ - INFO -   account_name: None
+2025-08-06 23:13:52,949 - __main__ - INFO -   stage: EOI Received - No payment Received yet
+2025-08-06 23:13:53,506 - automated_deals_complete_sync - INFO - Dataset zoho_crm_data already exists
+2025-08-06 23:13:53,994 - automated_deals_complete_sync - INFO - Table arboreal-logic-467306-k0.zoho_crm_data.deals_complete already exists
+2025-08-06 23:13:56,210 - automated_deals_complete_sync - INFO - Successfully inserted 2 deals into BigQuery
+2025-08-06 23:13:57,877 - __main__ - INFO - Table now contains 6 rows
+2025-08-06 23:14:37,571 - __main__ - INFO - ============================================================
+2025-08-06 23:14:37,574 - __main__ - INFO - Testing connections...
+2025-08-06 23:14:41,528 - __main__ - INFO - Table 'deals_complete' already exists with 173 fields
+2025-08-06 23:14:46,305 - __main__ - INFO -    • BOOLEAN: 9 fields
+2025-08-06 23:14:46,305 - __main__ - INFO -    • DATE: 14 fields
+2025-08-06 23:14:46,305 - __main__ - INFO -    • FLOAT: 8 fields
+2025-08-06 23:14:46,305 - __main__ - INFO -    • INTEGER: 10 fields
+2025-08-06 23:14:46,305 - __main__ - INFO -    • JSON: 13 fields
+2025-08-06 23:14:46,305 - __main__ - INFO -    • STRING: 108 fields
+2025-08-06 23:14:46,305 - __main__ - INFO -    • TIMESTAMP: 11 fields
+2025-08-06 23:14:46,310 - __main__ - INFO - Fetching all deals from Zoho CRM...
+2025-08-06 23:14:47,906 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 1
+2025-08-06 23:14:49,592 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 2
+2025-08-06 23:14:51,357 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 3
+2025-08-06 23:14:53,153 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 4
+2025-08-06 23:14:54,734 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 5
+2025-08-06 23:14:56,366 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 6
+2025-08-06 23:14:58,250 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 7
+2025-08-06 23:15:00,167 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 8
+2025-08-06 23:15:01,745 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 9
+2025-08-06 23:15:03,371 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 10
+2025-08-06 23:15:04,991 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 11
+2025-08-06 23:15:06,629 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 12
+2025-08-06 23:15:08,296 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 13
+2025-08-06 23:15:09,931 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 14
+2025-08-06 23:15:11,641 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 15
+2025-08-06 23:15:13,229 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 16
+2025-08-06 23:15:14,855 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 17
+2025-08-06 23:15:16,664 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 18
+2025-08-06 23:15:18,335 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 19
+2025-08-06 23:15:20,026 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 20
+2025-08-06 23:15:21,672 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 21
+2025-08-06 23:15:23,316 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 22
+2025-08-06 23:15:25,760 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 23
+2025-08-06 23:15:27,341 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 24
+2025-08-06 23:15:29,164 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 25
+2025-08-06 23:15:30,925 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 26
+2025-08-06 23:15:32,648 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 27
+2025-08-06 23:15:34,228 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 28
+2025-08-06 23:15:35,903 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 29
+2025-08-06 23:15:37,580 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 30
+2025-08-06 23:15:39,285 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 31
+2025-08-06 23:15:40,929 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 32
+2025-08-06 23:15:42,883 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 33
+2025-08-06 23:15:44,896 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 34
+2025-08-06 23:15:47,020 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 35
+2025-08-06 23:15:48,963 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 36
+2025-08-06 23:15:50,994 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 37
+2025-08-06 23:15:52,646 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 38
+2025-08-06 23:15:53,902 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 39
+2025-08-06 23:15:55,172 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 40
+2025-08-06 23:15:56,437 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 41
+2025-08-06 23:15:57,693 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 42
+2025-08-06 23:15:59,320 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 43
+2025-08-06 23:16:01,069 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 44
+2025-08-06 23:16:02,709 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 45
+2025-08-06 23:16:04,400 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 46
+2025-08-06 23:16:06,130 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 47
+2025-08-06 23:16:07,751 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 48
+2025-08-06 23:16:09,386 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 49
+2025-08-06 23:16:11,080 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 50
+2025-08-06 23:16:12,756 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 51
+2025-08-06 23:16:14,587 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 52
+2025-08-06 23:16:16,591 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 53
+2025-08-06 23:16:18,574 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 54
+2025-08-06 23:16:20,424 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 55
+2025-08-06 23:16:22,311 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 56
+2025-08-06 23:16:24,311 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 57
+2025-08-06 23:16:26,310 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 58
+2025-08-06 23:16:28,258 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 59
+2025-08-06 23:16:30,394 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 60
+2025-08-06 23:16:32,370 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 61
+2025-08-06 23:16:34,441 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 62
+2025-08-06 23:16:36,531 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 63
+2025-08-06 23:16:38,577 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 64
+2025-08-06 23:16:40,415 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 65
+2025-08-06 23:16:42,263 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 66
+2025-08-06 23:16:44,115 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 67
+2025-08-06 23:16:45,942 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 68
+2025-08-06 23:16:47,751 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 69
+2025-08-06 23:16:49,691 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 70
+2025-08-06 23:16:51,741 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 71
+2025-08-06 23:16:53,687 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 72
+2025-08-06 23:16:55,022 - automated_deals_complete_sync - INFO - Fetched 70 deals from page 73
+2025-08-06 23:16:55,023 - automated_deals_complete_sync - INFO - Total deals fetched: 14470
+2025-08-06 23:16:55,023 - __main__ - INFO - Found 14470 deals to load
+2025-08-06 23:16:58,192 - automated_deals_complete_sync - ERROR - Error inserting deals into BigQuery: 404 POST https://bigquery.googleapis.com/bigquery/v2/projects/arboreal-logic-467306-k0/datasets/zoho_crm_data/tables/deals_complete/insertAll?prettyPrint=false: Table 314116102388:zoho_crm_data.deals_complete not found.
+2025-08-06 23:16:58,255 - automated_deals_complete_sync - ERROR - Traceback (most recent call last):
+  File "E:\upwork\manya\automated_deals_complete_sync.py", line 239, in insert_deals
+    errors = self.client.insert_rows_json(table, transformed_deals)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\google\cloud\bigquery\client.py", line 3676, in insert_rows_json
+    response = self._call_api(
+               ^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\google\cloud\bigquery\client.py", line 808, in _call_api
+    return call()
+           ^^^^^^
+  File "C:\Users\gaura\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\gaura\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\google\cloud\_http\__init__.py", line 494, in api_request
+    raise exceptions.from_http_response(response)
+google.api_core.exceptions.NotFound: 404 POST https://bigquery.googleapis.com/bigquery/v2/projects/arboreal-logic-467306-k0/datasets/zoho_crm_data/tables/deals_complete/insertAll?prettyPrint=false: Table 314116102388:zoho_crm_data.deals_complete not found.
+
+2025-08-06 23:17:00,331 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:02,249 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:04,096 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:06,006 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:07,876 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:09,726 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:11,618 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:13,617 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:15,575 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:17,458 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:19,297 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:21,197 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:23,138 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:25,059 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:26,920 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:28,783 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:30,680 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:32,585 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:34,434 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:36,361 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:38,243 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:40,072 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:41,960 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:43,833 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:45,723 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:47,732 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:49,575 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:51,426 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:53,283 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:55,110 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:56,943 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:17:58,830 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:00,724 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:02,619 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:04,492 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:06,543 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:08,363 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:10,124 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:11,951 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:13,782 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:15,707 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:17,518 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:19,374 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:21,230 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:22,983 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:24,804 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:26,622 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:28,626 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:30,376 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:32,472 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:34,320 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:36,125 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:37,949 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:39,798 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:41,595 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:43,922 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:45,769 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:47,614 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:49,467 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:51,340 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:53,187 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:55,016 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:56,881 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:18:58,744 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:19:00,595 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:19:02,460 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:19:04,332 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:19:06,202 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:19:08,096 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:19:10,057 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:19:12,090 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:19:13,804 - automated_deals_complete_sync - INFO - Successfully inserted 70 deals into BigQuery
+2025-08-06 23:19:13,813 - __main__ - INFO -    • Total deals processed: 14470
+2025-08-06 23:19:13,813 - __main__ - INFO -    • Successfully loaded: 14270
+2025-08-06 23:19:13,813 - __main__ - INFO -    • Failed batches: 1
+2025-08-06 23:19:13,814 - __main__ - INFO -    • Success rate: 98.6%
+2025-08-06 23:38:56,390 - __main__ - INFO - ============================================================
+2025-08-06 23:38:56,392 - __main__ - INFO - Testing connections...
+2025-08-06 23:39:01,460 - __main__ - INFO -    • BOOLEAN: 9 fields
+2025-08-06 23:39:01,461 - __main__ - INFO -    • DATE: 14 fields
+2025-08-06 23:39:01,461 - __main__ - INFO -    • FLOAT: 8 fields
+2025-08-06 23:39:01,461 - __main__ - INFO -    • INTEGER: 10 fields
+2025-08-06 23:39:01,461 - __main__ - INFO -    • JSON: 13 fields
+2025-08-06 23:39:01,462 - __main__ - INFO -    • STRING: 108 fields
+2025-08-06 23:39:01,462 - __main__ - INFO -    • TIMESTAMP: 11 fields
+2025-08-06 23:39:01,472 - __main__ - INFO - Fetching all deals from Zoho CRM...
+2025-08-06 23:39:03,160 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 1
+2025-08-06 23:39:05,237 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 2
+2025-08-06 23:39:07,135 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 3
+2025-08-06 23:39:08,905 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 4
+2025-08-06 23:39:10,528 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 5
+2025-08-06 23:39:12,139 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 6
+2025-08-06 23:39:13,964 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 7
+2025-08-06 23:39:15,619 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 8
+2025-08-06 23:39:17,240 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 9
+2025-08-06 23:39:18,842 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 10
+2025-08-06 23:39:20,450 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 11
+2025-08-06 23:39:22,089 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 12
+2025-08-06 23:39:23,683 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 13
+2025-08-06 23:39:25,284 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 14
+2025-08-06 23:39:27,394 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 15
+2025-08-06 23:39:29,279 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 16
+2025-08-06 23:39:30,906 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 17
+2025-08-06 23:39:32,584 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 18
+2025-08-06 23:39:34,240 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 19
+2025-08-06 23:39:35,956 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 20
+2025-08-06 23:39:37,762 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 21
+2025-08-06 23:39:39,415 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 22
+2025-08-06 23:39:41,213 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 23
+2025-08-06 23:39:42,785 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 24
+2025-08-06 23:39:44,637 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 25
+2025-08-06 23:39:46,256 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 26
+2025-08-06 23:39:47,927 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 27
+2025-08-06 23:39:49,510 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 28
+2025-08-06 23:39:51,354 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 29
+2025-08-06 23:39:56,135 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 30
+2025-08-06 23:39:58,003 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 31
+2025-08-06 23:39:59,784 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 32
+2025-08-06 23:40:01,586 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 33
+2025-08-06 23:40:03,432 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 34
+2025-08-06 23:40:05,269 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 35
+2025-08-06 23:40:07,048 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 36
+2025-08-06 23:40:08,922 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 37
+2025-08-06 23:40:10,400 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 38
+2025-08-06 23:40:11,660 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 39
+2025-08-06 23:40:12,885 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 40
+2025-08-06 23:40:14,143 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 41
+2025-08-06 23:40:15,403 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 42
+2025-08-06 23:40:16,675 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 43
+2025-08-06 23:40:17,953 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 44
+2025-08-06 23:40:19,205 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 45
+2025-08-06 23:40:20,503 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 46
+2025-08-06 23:40:21,847 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 47
+2025-08-06 23:40:23,051 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 48
+2025-08-06 23:40:24,334 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 49
+2025-08-06 23:40:25,592 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 50
+2025-08-06 23:40:26,830 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 51
+2025-08-06 23:40:28,254 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 52
+2025-08-06 23:40:32,084 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 53
+2025-08-06 23:40:33,535 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 54
+2025-08-06 23:40:35,005 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 55
+2025-08-06 23:40:36,412 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 56
+2025-08-06 23:40:38,067 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 57
+2025-08-06 23:40:39,765 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 58
+2025-08-06 23:40:41,371 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 59
+2025-08-06 23:40:42,995 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 60
+2025-08-06 23:40:44,638 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 61
+2025-08-06 23:40:46,242 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 62
+2025-08-06 23:40:47,940 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 63
+2025-08-06 23:40:49,585 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 64
+2025-08-06 23:40:51,190 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 65
+2025-08-06 23:40:52,907 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 66
+2025-08-06 23:40:54,597 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 67
+2025-08-06 23:40:56,243 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 68
+2025-08-06 23:40:57,864 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 69
+2025-08-06 23:40:59,760 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 70
+2025-08-06 23:41:01,606 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 71
+2025-08-06 23:41:03,384 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 72
+2025-08-06 23:41:04,503 - automated_deals_complete_sync - INFO - Fetched 70 deals from page 73
+2025-08-06 23:41:04,503 - automated_deals_complete_sync - INFO - Total deals fetched: 14470
+2025-08-06 23:41:04,504 - __main__ - INFO - Found 14470 deals to load
+2025-08-06 23:41:07,698 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:41:10,164 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:41:12,003 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:41:13,836 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:41:15,883 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:41:17,888 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:41:20,077 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:41:22,126 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:41:24,165 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:41:26,504 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:41:28,581 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:41:30,528 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:41:32,250 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:41:34,341 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:41:36,515 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:41:38,642 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:41:40,788 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:41:42,682 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:41:44,869 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:41:46,997 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:41:48,860 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:41:50,866 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:41:52,901 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:41:54,870 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:41:57,212 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:41:59,351 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:01,482 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:03,550 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:05,426 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:07,481 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:09,633 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:11,710 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:13,875 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:15,992 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:18,076 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:20,057 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:22,069 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:24,192 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:26,187 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:28,072 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:30,031 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:31,924 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:33,853 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:35,837 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:37,855 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:39,995 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:42,025 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:43,917 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:45,920 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:47,962 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:49,715 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:51,754 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:53,809 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:55,699 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:57,499 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:42:59,769 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:43:01,849 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:43:03,913 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:43:06,024 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:43:08,391 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:43:10,163 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:43:12,106 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:43:14,236 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:43:16,283 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:43:18,345 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:43:20,088 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:43:22,134 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:43:23,919 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:43:25,901 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:43:28,031 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:43:30,330 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:43:32,671 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:43:34,362 - automated_deals_complete_sync - INFO - Successfully inserted 70 deals into BigQuery
+2025-08-06 23:43:34,376 - __main__ - INFO -    • Total deals processed: 14470
+2025-08-06 23:43:34,376 - __main__ - INFO -    • Successfully loaded: 14470
+2025-08-06 23:43:34,377 - __main__ - INFO -    • Failed batches: 0
+2025-08-06 23:43:34,377 - __main__ - INFO -    • Success rate: 100.0%
+2025-08-06 23:43:38,278 - __main__ - INFO -    Row 1: ID=N/A, Deal Name=Simarjit Gill
+2025-08-06 23:43:38,278 - __main__ - INFO -    Row 2: ID=N/A, Deal Name=Ferhat Balfas
+2025-08-06 23:43:38,279 - __main__ - INFO -    Row 3: ID=N/A, Deal Name=Zihe Xia
+2025-08-06 23:43:38,285 - __main__ - INFO - ============================================================
+2025-08-06 23:45:57,412 - __main__ - INFO - ============================================================
+2025-08-06 23:45:57,415 - __main__ - INFO - Testing connections...
+2025-08-06 23:46:00,871 - __main__ - INFO - Table 'deals_complete' already exists with 173 fields
+2025-08-06 23:46:58,779 - __main__ - INFO -    • BOOLEAN: 9 fields
+2025-08-06 23:46:58,780 - __main__ - INFO -    • DATE: 14 fields
+2025-08-06 23:46:58,780 - __main__ - INFO -    • FLOAT: 8 fields
+2025-08-06 23:46:58,780 - __main__ - INFO -    • INTEGER: 10 fields
+2025-08-06 23:46:58,780 - __main__ - INFO -    • JSON: 13 fields
+2025-08-06 23:46:58,780 - __main__ - INFO -    • STRING: 108 fields
+2025-08-06 23:46:58,780 - __main__ - INFO -    • TIMESTAMP: 11 fields
+2025-08-06 23:46:58,786 - __main__ - INFO - Fetching all deals from Zoho CRM...
+2025-08-06 23:47:00,918 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 1
+2025-08-06 23:47:02,963 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 2
+2025-08-06 23:47:04,983 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 3
+2025-08-06 23:47:06,837 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 4
+2025-08-06 23:47:08,609 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 5
+2025-08-06 23:47:10,745 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 6
+2025-08-06 23:47:13,060 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 7
+2025-08-06 23:47:14,888 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 8
+2025-08-06 23:47:16,921 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 9
+2025-08-06 23:47:18,742 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 10
+2025-08-06 23:47:20,477 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 11
+2025-08-06 23:47:22,148 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 12
+2025-08-06 23:47:23,814 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 13
+2025-08-06 23:47:25,576 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 14
+2025-08-06 23:47:27,506 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 15
+2025-08-06 23:47:29,304 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 16
+2025-08-06 23:47:31,148 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 17
+2025-08-06 23:47:32,967 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 18
+2025-08-06 23:47:34,768 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 19
+2025-08-06 23:47:36,532 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 20
+2025-08-06 23:47:38,332 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 21
+2025-08-06 23:47:40,126 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 22
+2025-08-06 23:47:41,983 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 23
+2025-08-06 23:47:43,848 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 24
+2025-08-06 23:47:45,691 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 25
+2025-08-06 23:47:47,580 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 26
+2025-08-06 23:47:49,359 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 27
+2025-08-06 23:47:51,048 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 28
+2025-08-06 23:47:52,894 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 29
+2025-08-06 23:47:54,711 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 30
+2025-08-06 23:47:56,468 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 31
+2025-08-06 23:47:58,333 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 32
+2025-08-06 23:48:00,313 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 33
+2025-08-06 23:48:02,113 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 34
+2025-08-06 23:48:03,902 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 35
+2025-08-06 23:48:05,710 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 36
+2025-08-06 23:48:07,759 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 37
+2025-08-06 23:48:09,338 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 38
+2025-08-06 23:48:10,631 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 39
+2025-08-06 23:48:11,926 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 40
+2025-08-06 23:48:13,191 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 41
+2025-08-06 23:48:14,561 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 42
+2025-08-06 23:48:15,787 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 43
+2025-08-06 23:48:17,072 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 44
+2025-08-06 23:48:18,300 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 45
+2025-08-06 23:48:19,576 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 46
+2025-08-06 23:48:20,916 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 47
+2025-08-06 23:48:22,153 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 48
+2025-08-06 23:48:23,371 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 49
+2025-08-06 23:48:24,605 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 50
+2025-08-06 23:48:25,840 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 51
+2025-08-06 23:48:27,359 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 52
+2025-08-06 23:48:29,046 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 53
+2025-08-06 23:48:30,729 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 54
+2025-08-06 23:48:32,366 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 55
+2025-08-06 23:48:33,859 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 56
+2025-08-06 23:48:35,845 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 57
+2025-08-06 23:48:37,468 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 58
+2025-08-06 23:48:39,170 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 59
+2025-08-06 23:48:40,784 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 60
+2025-08-06 23:48:42,515 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 61
+2025-08-06 23:48:44,208 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 62
+2025-08-06 23:48:45,961 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 63
+2025-08-06 23:48:47,646 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 64
+2025-08-06 23:48:49,298 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 65
+2025-08-06 23:48:51,040 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 66
+2025-08-06 23:48:52,785 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 67
+2025-08-06 23:48:54,386 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 68
+2025-08-06 23:48:56,052 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 69
+2025-08-06 23:48:57,850 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 70
+2025-08-06 23:48:59,756 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 71
+2025-08-06 23:49:01,664 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 72
+2025-08-06 23:49:02,834 - automated_deals_complete_sync - INFO - Fetched 70 deals from page 73
+2025-08-06 23:49:02,835 - automated_deals_complete_sync - INFO - Total deals fetched: 14470
+2025-08-06 23:49:02,835 - __main__ - INFO - Found 14470 deals to load
+2025-08-06 23:49:06,054 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:08,073 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:09,970 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:11,817 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:13,700 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:15,527 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:17,447 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:19,585 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:21,482 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:23,396 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:25,272 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:27,217 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:29,117 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:31,027 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:32,912 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:34,830 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:36,745 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:38,679 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:40,596 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:42,461 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:44,353 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:46,359 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:48,282 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:50,114 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:52,031 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:53,906 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:56,003 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:57,929 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:49:59,804 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:01,681 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:03,513 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:05,397 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:07,305 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:09,160 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:11,102 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:12,984 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:14,782 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:16,707 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:18,634 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:20,475 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:22,369 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:24,311 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:26,146 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:27,987 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:29,847 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:31,757 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:33,616 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:35,566 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:37,493 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:39,371 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:41,231 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:43,203 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:45,110 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:47,055 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:48,846 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:50,879 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:52,743 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:54,657 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:56,502 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:50:58,467 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:51:00,430 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:51:02,345 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:51:04,252 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:51:06,073 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:51:07,944 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:51:09,854 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:51:11,937 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:51:13,901 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:51:15,848 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:51:17,803 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:51:19,885 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:51:22,026 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:51:23,807 - automated_deals_complete_sync - INFO - Successfully inserted 70 deals into BigQuery
+2025-08-06 23:51:23,815 - __main__ - INFO -    • Total deals processed: 14470
+2025-08-06 23:51:23,816 - __main__ - INFO -    • Successfully loaded: 14470
+2025-08-06 23:51:23,816 - __main__ - INFO -    • Failed batches: 0
+2025-08-06 23:51:23,816 - __main__ - INFO -    • Success rate: 100.0%
+2025-08-06 23:51:27,751 - __main__ - INFO -    Row 1: ID=N/A, Deal Name=Simarjit Gill
+2025-08-06 23:51:27,752 - __main__ - INFO -    Row 2: ID=N/A, Deal Name=Ferhat Balfas
+2025-08-06 23:51:27,752 - __main__ - INFO -    Row 3: ID=N/A, Deal Name=Zihe Xia
+2025-08-06 23:51:27,761 - __main__ - INFO - ============================================================
+2025-08-06 23:55:08,965 - __main__ - INFO - SETUP: Setting up Complete Zoho CRM Deals BigQuery System
+2025-08-06 23:55:08,966 - __main__ - INFO - ============================================================
+2025-08-06 23:55:08,966 - __main__ - INFO - STEP: Testing connections...
+2025-08-06 23:55:08,966 - __main__ - INFO - Testing connections...
+2025-08-06 23:55:10,139 - __main__ - INFO - SUCCESS: BigQuery connection successful. Found 1 datasets.
+2025-08-06 23:55:11,006 - __main__ - INFO - SUCCESS: Zoho CRM connection successful. API accessible.
+2025-08-06 23:55:11,007 - __main__ - INFO - SUCCESS: Testing connections completed
+2025-08-06 23:55:11,007 - __main__ - INFO - STEP: Creating dataset...
+2025-08-06 23:55:11,578 - __main__ - INFO - SUCCESS: Dataset 'zoho_crm' already exists
+2025-08-06 23:55:11,578 - __main__ - INFO - SUCCESS: Creating dataset completed
+2025-08-06 23:55:11,578 - __main__ - INFO - STEP: Creating table...
+2025-08-06 23:55:12,055 - __main__ - INFO - Table 'deals_complete' already exists with 173 fields
+2025-08-06 23:56:01,273 - __main__ - INFO - DELETE: Deleted existing table 'deals_complete'
+2025-08-06 23:56:01,834 - __main__ - INFO - SUCCESS: Created table 'deals_complete' with 173 fields
+2025-08-06 23:56:01,834 - __main__ - INFO - STATS: Field type distribution:
+2025-08-06 23:56:01,834 - __main__ - INFO -    • BOOLEAN: 9 fields
+2025-08-06 23:56:01,835 - __main__ - INFO -    • DATE: 14 fields
+2025-08-06 23:56:01,835 - __main__ - INFO -    • FLOAT: 8 fields
+2025-08-06 23:56:01,835 - __main__ - INFO -    • INTEGER: 10 fields
+2025-08-06 23:56:01,835 - __main__ - INFO -    • JSON: 13 fields
+2025-08-06 23:56:01,835 - __main__ - INFO -    • STRING: 108 fields
+2025-08-06 23:56:01,835 - __main__ - INFO -    • TIMESTAMP: 11 fields
+2025-08-06 23:56:01,835 - __main__ - INFO - SUCCESS: Creating table completed
+2025-08-06 23:56:01,836 - __main__ - INFO - STEP: Loading initial data...
+2025-08-06 23:56:01,836 - __main__ - INFO - LOADING: Starting initial data load...
+2025-08-06 23:56:01,836 - __main__ - INFO - Fetching all deals from Zoho CRM...
+2025-08-06 23:56:03,709 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 1
+2025-08-06 23:56:05,866 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 2
+2025-08-06 23:56:07,700 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 3
+2025-08-06 23:56:09,658 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 4
+2025-08-06 23:56:11,875 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 5
+2025-08-06 23:56:13,625 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 6
+2025-08-06 23:56:15,491 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 7
+2025-08-06 23:56:17,352 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 8
+2025-08-06 23:56:19,168 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 9
+2025-08-06 23:56:20,911 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 10
+2025-08-06 23:56:22,689 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 11
+2025-08-06 23:56:24,385 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 12
+2025-08-06 23:56:26,098 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 13
+2025-08-06 23:56:27,849 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 14
+2025-08-06 23:56:29,587 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 15
+2025-08-06 23:56:31,330 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 16
+2025-08-06 23:56:33,082 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 17
+2025-08-06 23:56:34,860 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 18
+2025-08-06 23:56:36,709 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 19
+2025-08-06 23:56:38,516 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 20
+2025-08-06 23:56:40,610 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 21
+2025-08-06 23:56:42,441 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 22
+2025-08-06 23:56:44,479 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 23
+2025-08-06 23:56:46,419 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 24
+2025-08-06 23:56:48,381 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 25
+2025-08-06 23:56:50,323 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 26
+2025-08-06 23:56:52,341 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 27
+2025-08-06 23:56:54,231 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 28
+2025-08-06 23:56:56,624 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 29
+2025-08-06 23:56:58,584 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 30
+2025-08-06 23:57:00,563 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 31
+2025-08-06 23:57:02,461 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 32
+2025-08-06 23:57:04,470 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 33
+2025-08-06 23:57:06,461 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 34
+2025-08-06 23:57:08,465 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 35
+2025-08-06 23:57:10,481 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 36
+2025-08-06 23:57:12,677 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 37
+2025-08-06 23:57:14,475 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 38
+2025-08-06 23:57:15,845 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 39
+2025-08-06 23:57:17,276 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 40
+2025-08-06 23:57:18,723 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 41
+2025-08-06 23:57:20,144 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 42
+2025-08-06 23:57:21,620 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 43
+2025-08-06 23:57:23,077 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 44
+2025-08-06 23:57:24,508 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 45
+2025-08-06 23:57:26,026 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 46
+2025-08-06 23:57:27,464 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 47
+2025-08-06 23:57:28,920 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 48
+2025-08-06 23:57:30,325 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 49
+2025-08-06 23:57:31,835 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 50
+2025-08-06 23:57:33,365 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 51
+2025-08-06 23:57:34,983 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 52
+2025-08-06 23:57:36,791 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 53
+2025-08-06 23:57:38,569 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 54
+2025-08-06 23:57:40,172 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 55
+2025-08-06 23:57:41,838 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 56
+2025-08-06 23:57:43,616 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 57
+2025-08-06 23:57:45,428 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 58
+2025-08-06 23:57:47,253 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 59
+2025-08-06 23:57:49,081 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 60
+2025-08-06 23:57:50,890 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 61
+2025-08-06 23:57:52,698 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 62
+2025-08-06 23:57:54,563 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 63
+2025-08-06 23:57:56,430 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 64
+2025-08-06 23:57:58,176 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 65
+2025-08-06 23:58:00,267 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 66
+2025-08-06 23:58:02,189 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 67
+2025-08-06 23:58:03,996 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 68
+2025-08-06 23:58:05,811 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 69
+2025-08-06 23:58:07,799 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 70
+2025-08-06 23:58:09,780 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 71
+2025-08-06 23:58:11,828 - automated_deals_complete_sync - INFO - Fetched 200 deals from page 72
+2025-08-06 23:58:13,205 - automated_deals_complete_sync - INFO - Fetched 70 deals from page 73
+2025-08-06 23:58:13,205 - automated_deals_complete_sync - INFO - Total deals fetched: 14470
+2025-08-06 23:58:13,205 - __main__ - INFO - Found 14470 deals to load
+2025-08-06 23:58:13,206 - __main__ - INFO - BATCH: Processing batch 1/73: 200 deals
+2025-08-06 23:58:16,747 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:58:16,748 - __main__ - INFO - SUCCESS: Batch 1 loaded successfully
+2025-08-06 23:58:16,748 - __main__ - INFO - BATCH: Processing batch 2/73: 200 deals
+2025-08-06 23:58:18,774 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:58:18,776 - __main__ - INFO - SUCCESS: Batch 2 loaded successfully
+2025-08-06 23:58:18,776 - __main__ - INFO - BATCH: Processing batch 3/73: 200 deals
+2025-08-06 23:58:21,131 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:58:21,131 - __main__ - INFO - SUCCESS: Batch 3 loaded successfully
+2025-08-06 23:58:21,133 - __main__ - INFO - BATCH: Processing batch 4/73: 200 deals
+2025-08-06 23:58:23,282 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:58:23,283 - __main__ - INFO - SUCCESS: Batch 4 loaded successfully
+2025-08-06 23:58:23,283 - __main__ - INFO - BATCH: Processing batch 5/73: 200 deals
+2025-08-06 23:58:25,113 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:58:25,113 - __main__ - INFO - SUCCESS: Batch 5 loaded successfully
+2025-08-06 23:58:25,114 - __main__ - INFO - BATCH: Processing batch 6/73: 200 deals
+2025-08-06 23:58:27,150 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:58:27,153 - __main__ - INFO - SUCCESS: Batch 6 loaded successfully
+2025-08-06 23:58:27,153 - __main__ - INFO - BATCH: Processing batch 7/73: 200 deals
+2025-08-06 23:58:29,165 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:58:29,166 - __main__ - INFO - SUCCESS: Batch 7 loaded successfully
+2025-08-06 23:58:29,166 - __main__ - INFO - BATCH: Processing batch 8/73: 200 deals
+2025-08-06 23:58:31,458 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:58:31,459 - __main__ - INFO - SUCCESS: Batch 8 loaded successfully
+2025-08-06 23:58:31,459 - __main__ - INFO - BATCH: Processing batch 9/73: 200 deals
+2025-08-06 23:58:33,733 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:58:33,734 - __main__ - INFO - SUCCESS: Batch 9 loaded successfully
+2025-08-06 23:58:33,734 - __main__ - INFO - BATCH: Processing batch 10/73: 200 deals
+2025-08-06 23:58:35,591 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:58:35,591 - __main__ - INFO - SUCCESS: Batch 10 loaded successfully
+2025-08-06 23:58:35,591 - __main__ - INFO - BATCH: Processing batch 11/73: 200 deals
+2025-08-06 23:58:37,600 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:58:37,601 - __main__ - INFO - SUCCESS: Batch 11 loaded successfully
+2025-08-06 23:58:37,602 - __main__ - INFO - BATCH: Processing batch 12/73: 200 deals
+2025-08-06 23:58:39,644 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:58:39,645 - __main__ - INFO - SUCCESS: Batch 12 loaded successfully
+2025-08-06 23:58:39,645 - __main__ - INFO - BATCH: Processing batch 13/73: 200 deals
+2025-08-06 23:58:41,690 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:58:41,691 - __main__ - INFO - SUCCESS: Batch 13 loaded successfully
+2025-08-06 23:58:41,691 - __main__ - INFO - BATCH: Processing batch 14/73: 200 deals
+2025-08-06 23:58:43,427 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:58:43,428 - __main__ - INFO - SUCCESS: Batch 14 loaded successfully
+2025-08-06 23:58:43,428 - __main__ - INFO - BATCH: Processing batch 15/73: 200 deals
+2025-08-06 23:58:45,181 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:58:45,183 - __main__ - INFO - SUCCESS: Batch 15 loaded successfully
+2025-08-06 23:58:45,183 - __main__ - INFO - BATCH: Processing batch 16/73: 200 deals
+2025-08-06 23:58:47,197 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:58:47,198 - __main__ - INFO - SUCCESS: Batch 16 loaded successfully
+2025-08-06 23:58:47,199 - __main__ - INFO - BATCH: Processing batch 17/73: 200 deals
+2025-08-06 23:58:49,357 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:58:49,358 - __main__ - INFO - SUCCESS: Batch 17 loaded successfully
+2025-08-06 23:58:49,358 - __main__ - INFO - BATCH: Processing batch 18/73: 200 deals
+2025-08-06 23:58:51,349 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:58:51,349 - __main__ - INFO - SUCCESS: Batch 18 loaded successfully
+2025-08-06 23:58:51,351 - __main__ - INFO - BATCH: Processing batch 19/73: 200 deals
+2025-08-06 23:58:53,094 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:58:53,094 - __main__ - INFO - SUCCESS: Batch 19 loaded successfully
+2025-08-06 23:58:53,096 - __main__ - INFO - BATCH: Processing batch 20/73: 200 deals
+2025-08-06 23:58:55,126 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:58:55,126 - __main__ - INFO - SUCCESS: Batch 20 loaded successfully
+2025-08-06 23:58:55,126 - __main__ - INFO - BATCH: Processing batch 21/73: 200 deals
+2025-08-06 23:58:57,184 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:58:57,185 - __main__ - INFO - SUCCESS: Batch 21 loaded successfully
+2025-08-06 23:58:57,186 - __main__ - INFO - BATCH: Processing batch 22/73: 200 deals
+2025-08-06 23:58:59,043 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:58:59,044 - __main__ - INFO - SUCCESS: Batch 22 loaded successfully
+2025-08-06 23:58:59,044 - __main__ - INFO - BATCH: Processing batch 23/73: 200 deals
+2025-08-06 23:59:01,060 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:01,060 - __main__ - INFO - SUCCESS: Batch 23 loaded successfully
+2025-08-06 23:59:01,061 - __main__ - INFO - BATCH: Processing batch 24/73: 200 deals
+2025-08-06 23:59:03,188 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:03,190 - __main__ - INFO - SUCCESS: Batch 24 loaded successfully
+2025-08-06 23:59:03,190 - __main__ - INFO - BATCH: Processing batch 25/73: 200 deals
+2025-08-06 23:59:05,267 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:05,268 - __main__ - INFO - SUCCESS: Batch 25 loaded successfully
+2025-08-06 23:59:05,269 - __main__ - INFO - BATCH: Processing batch 26/73: 200 deals
+2025-08-06 23:59:07,345 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:07,346 - __main__ - INFO - SUCCESS: Batch 26 loaded successfully
+2025-08-06 23:59:07,346 - __main__ - INFO - BATCH: Processing batch 27/73: 200 deals
+2025-08-06 23:59:09,404 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:09,405 - __main__ - INFO - SUCCESS: Batch 27 loaded successfully
+2025-08-06 23:59:09,406 - __main__ - INFO - BATCH: Processing batch 28/73: 200 deals
+2025-08-06 23:59:11,237 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:11,238 - __main__ - INFO - SUCCESS: Batch 28 loaded successfully
+2025-08-06 23:59:11,238 - __main__ - INFO - BATCH: Processing batch 29/73: 200 deals
+2025-08-06 23:59:13,473 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:13,474 - __main__ - INFO - SUCCESS: Batch 29 loaded successfully
+2025-08-06 23:59:13,474 - __main__ - INFO - BATCH: Processing batch 30/73: 200 deals
+2025-08-06 23:59:15,611 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:15,612 - __main__ - INFO - SUCCESS: Batch 30 loaded successfully
+2025-08-06 23:59:15,612 - __main__ - INFO - BATCH: Processing batch 31/73: 200 deals
+2025-08-06 23:59:17,750 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:17,751 - __main__ - INFO - SUCCESS: Batch 31 loaded successfully
+2025-08-06 23:59:17,751 - __main__ - INFO - BATCH: Processing batch 32/73: 200 deals
+2025-08-06 23:59:19,939 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:19,941 - __main__ - INFO - SUCCESS: Batch 32 loaded successfully
+2025-08-06 23:59:19,941 - __main__ - INFO - BATCH: Processing batch 33/73: 200 deals
+2025-08-06 23:59:21,777 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:21,778 - __main__ - INFO - SUCCESS: Batch 33 loaded successfully
+2025-08-06 23:59:21,778 - __main__ - INFO - BATCH: Processing batch 34/73: 200 deals
+2025-08-06 23:59:23,810 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:23,811 - __main__ - INFO - SUCCESS: Batch 34 loaded successfully
+2025-08-06 23:59:23,812 - __main__ - INFO - BATCH: Processing batch 35/73: 200 deals
+2025-08-06 23:59:25,980 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:25,981 - __main__ - INFO - SUCCESS: Batch 35 loaded successfully
+2025-08-06 23:59:25,982 - __main__ - INFO - BATCH: Processing batch 36/73: 200 deals
+2025-08-06 23:59:28,144 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:28,145 - __main__ - INFO - SUCCESS: Batch 36 loaded successfully
+2025-08-06 23:59:28,145 - __main__ - INFO - BATCH: Processing batch 37/73: 200 deals
+2025-08-06 23:59:30,186 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:30,188 - __main__ - INFO - SUCCESS: Batch 37 loaded successfully
+2025-08-06 23:59:30,188 - __main__ - INFO - BATCH: Processing batch 38/73: 200 deals
+2025-08-06 23:59:32,166 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:32,167 - __main__ - INFO - SUCCESS: Batch 38 loaded successfully
+2025-08-06 23:59:32,167 - __main__ - INFO - BATCH: Processing batch 39/73: 200 deals
+2025-08-06 23:59:34,177 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:34,179 - __main__ - INFO - SUCCESS: Batch 39 loaded successfully
+2025-08-06 23:59:34,179 - __main__ - INFO - BATCH: Processing batch 40/73: 200 deals
+2025-08-06 23:59:35,962 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:35,964 - __main__ - INFO - SUCCESS: Batch 40 loaded successfully
+2025-08-06 23:59:35,964 - __main__ - INFO - BATCH: Processing batch 41/73: 200 deals
+2025-08-06 23:59:37,825 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:37,826 - __main__ - INFO - SUCCESS: Batch 41 loaded successfully
+2025-08-06 23:59:37,826 - __main__ - INFO - BATCH: Processing batch 42/73: 200 deals
+2025-08-06 23:59:39,531 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:39,532 - __main__ - INFO - SUCCESS: Batch 42 loaded successfully
+2025-08-06 23:59:39,532 - __main__ - INFO - BATCH: Processing batch 43/73: 200 deals
+2025-08-06 23:59:41,549 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:41,549 - __main__ - INFO - SUCCESS: Batch 43 loaded successfully
+2025-08-06 23:59:41,551 - __main__ - INFO - BATCH: Processing batch 44/73: 200 deals
+2025-08-06 23:59:43,427 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:43,428 - __main__ - INFO - SUCCESS: Batch 44 loaded successfully
+2025-08-06 23:59:43,429 - __main__ - INFO - BATCH: Processing batch 45/73: 200 deals
+2025-08-06 23:59:45,379 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:45,380 - __main__ - INFO - SUCCESS: Batch 45 loaded successfully
+2025-08-06 23:59:45,380 - __main__ - INFO - BATCH: Processing batch 46/73: 200 deals
+2025-08-06 23:59:47,105 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:47,105 - __main__ - INFO - SUCCESS: Batch 46 loaded successfully
+2025-08-06 23:59:47,106 - __main__ - INFO - BATCH: Processing batch 47/73: 200 deals
+2025-08-06 23:59:49,324 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:49,325 - __main__ - INFO - SUCCESS: Batch 47 loaded successfully
+2025-08-06 23:59:49,326 - __main__ - INFO - BATCH: Processing batch 48/73: 200 deals
+2025-08-06 23:59:51,217 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:51,219 - __main__ - INFO - SUCCESS: Batch 48 loaded successfully
+2025-08-06 23:59:51,220 - __main__ - INFO - BATCH: Processing batch 49/73: 200 deals
+2025-08-06 23:59:53,328 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:53,330 - __main__ - INFO - SUCCESS: Batch 49 loaded successfully
+2025-08-06 23:59:53,331 - __main__ - INFO - BATCH: Processing batch 50/73: 200 deals
+2025-08-06 23:59:55,271 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:55,271 - __main__ - INFO - SUCCESS: Batch 50 loaded successfully
+2025-08-06 23:59:55,272 - __main__ - INFO - BATCH: Processing batch 51/73: 200 deals
+2025-08-06 23:59:56,959 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:56,960 - __main__ - INFO - SUCCESS: Batch 51 loaded successfully
+2025-08-06 23:59:56,961 - __main__ - INFO - BATCH: Processing batch 52/73: 200 deals
+2025-08-06 23:59:58,945 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-06 23:59:58,946 - __main__ - INFO - SUCCESS: Batch 52 loaded successfully
+2025-08-06 23:59:58,946 - __main__ - INFO - BATCH: Processing batch 53/73: 200 deals
+2025-08-07 00:00:01,275 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-07 00:00:01,277 - __main__ - INFO - SUCCESS: Batch 53 loaded successfully
+2025-08-07 00:00:01,277 - __main__ - INFO - BATCH: Processing batch 54/73: 200 deals
+2025-08-07 00:00:03,185 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-07 00:00:03,186 - __main__ - INFO - SUCCESS: Batch 54 loaded successfully
+2025-08-07 00:00:03,187 - __main__ - INFO - BATCH: Processing batch 55/73: 200 deals
+2025-08-07 00:00:05,238 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-07 00:00:05,239 - __main__ - INFO - SUCCESS: Batch 55 loaded successfully
+2025-08-07 00:00:05,239 - __main__ - INFO - BATCH: Processing batch 56/73: 200 deals
+2025-08-07 00:00:07,221 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-07 00:00:07,221 - __main__ - INFO - SUCCESS: Batch 56 loaded successfully
+2025-08-07 00:00:07,221 - __main__ - INFO - BATCH: Processing batch 57/73: 200 deals
+2025-08-07 00:00:09,068 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-07 00:00:09,069 - __main__ - INFO - SUCCESS: Batch 57 loaded successfully
+2025-08-07 00:00:09,070 - __main__ - INFO - BATCH: Processing batch 58/73: 200 deals
+2025-08-07 00:00:11,049 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-07 00:00:11,050 - __main__ - INFO - SUCCESS: Batch 58 loaded successfully
+2025-08-07 00:00:11,050 - __main__ - INFO - BATCH: Processing batch 59/73: 200 deals
+2025-08-07 00:00:13,067 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-07 00:00:13,069 - __main__ - INFO - SUCCESS: Batch 59 loaded successfully
+2025-08-07 00:00:13,069 - __main__ - INFO - BATCH: Processing batch 60/73: 200 deals
+2025-08-07 00:00:15,187 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-07 00:00:15,187 - __main__ - INFO - SUCCESS: Batch 60 loaded successfully
+2025-08-07 00:00:15,187 - __main__ - INFO - BATCH: Processing batch 61/73: 200 deals
+2025-08-07 00:00:17,277 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-07 00:00:17,277 - __main__ - INFO - SUCCESS: Batch 61 loaded successfully
+2025-08-07 00:00:17,277 - __main__ - INFO - BATCH: Processing batch 62/73: 200 deals
+2025-08-07 00:00:18,990 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-07 00:00:18,991 - __main__ - INFO - SUCCESS: Batch 62 loaded successfully
+2025-08-07 00:00:18,992 - __main__ - INFO - BATCH: Processing batch 63/73: 200 deals
+2025-08-07 00:00:20,782 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-07 00:00:20,784 - __main__ - INFO - SUCCESS: Batch 63 loaded successfully
+2025-08-07 00:00:20,784 - __main__ - INFO - BATCH: Processing batch 64/73: 200 deals
+2025-08-07 00:00:22,900 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-07 00:00:22,903 - __main__ - INFO - SUCCESS: Batch 64 loaded successfully
+2025-08-07 00:00:22,903 - __main__ - INFO - BATCH: Processing batch 65/73: 200 deals
+2025-08-07 00:00:24,889 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-07 00:00:24,890 - __main__ - INFO - SUCCESS: Batch 65 loaded successfully
+2025-08-07 00:00:24,891 - __main__ - INFO - BATCH: Processing batch 66/73: 200 deals
+2025-08-07 00:00:26,613 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-07 00:00:26,614 - __main__ - INFO - SUCCESS: Batch 66 loaded successfully
+2025-08-07 00:00:26,615 - __main__ - INFO - BATCH: Processing batch 67/73: 200 deals
+2025-08-07 00:00:28,691 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-07 00:00:28,692 - __main__ - INFO - SUCCESS: Batch 67 loaded successfully
+2025-08-07 00:00:28,692 - __main__ - INFO - BATCH: Processing batch 68/73: 200 deals
+2025-08-07 00:00:30,838 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-07 00:00:30,839 - __main__ - INFO - SUCCESS: Batch 68 loaded successfully
+2025-08-07 00:00:30,840 - __main__ - INFO - BATCH: Processing batch 69/73: 200 deals
+2025-08-07 00:00:32,593 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-07 00:00:32,595 - __main__ - INFO - SUCCESS: Batch 69 loaded successfully
+2025-08-07 00:00:32,595 - __main__ - INFO - BATCH: Processing batch 70/73: 200 deals
+2025-08-07 00:00:34,733 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-07 00:00:34,734 - __main__ - INFO - SUCCESS: Batch 70 loaded successfully
+2025-08-07 00:00:34,734 - __main__ - INFO - BATCH: Processing batch 71/73: 200 deals
+2025-08-07 00:00:36,654 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-07 00:00:36,655 - __main__ - INFO - SUCCESS: Batch 71 loaded successfully
+2025-08-07 00:00:36,655 - __main__ - INFO - BATCH: Processing batch 72/73: 200 deals
+2025-08-07 00:00:38,560 - automated_deals_complete_sync - INFO - Successfully inserted 200 deals into BigQuery
+2025-08-07 00:00:38,562 - __main__ - INFO - SUCCESS: Batch 72 loaded successfully
+2025-08-07 00:00:38,562 - __main__ - INFO - BATCH: Processing batch 73/73: 70 deals
+2025-08-07 00:00:40,318 - automated_deals_complete_sync - INFO - Successfully inserted 70 deals into BigQuery
+2025-08-07 00:00:40,319 - __main__ - INFO - SUCCESS: Batch 73 loaded successfully
+2025-08-07 00:00:40,319 - __main__ - INFO - SUCCESS: Initial data load completed!
+2025-08-07 00:00:40,320 - __main__ - INFO - STATS: Statistics:
+2025-08-07 00:00:40,320 - __main__ - INFO -    • Total deals processed: 14470
+2025-08-07 00:00:40,321 - __main__ - INFO -    • Successfully loaded: 14470
+2025-08-07 00:00:40,321 - __main__ - INFO -    • Failed batches: 0
+2025-08-07 00:00:40,321 - __main__ - INFO -    • Success rate: 100.0%
+2025-08-07 00:00:40,358 - __main__ - INFO - SUCCESS: Loading initial data completed
+2025-08-07 00:00:40,358 - __main__ - INFO - STEP: Verifying data...
+2025-08-07 00:00:40,358 - __main__ - INFO - VERIFY: Verifying loaded data...
+2025-08-07 00:00:42,563 - __main__ - INFO - STATS: BigQuery table contains 14470 rows
+2025-08-07 00:00:44,252 - __main__ - INFO - SAMPLE: Sample data:
+2025-08-07 00:00:44,252 - __main__ - INFO -    Row 1: ID=N/A, Deal Name=Simarjit Gill
+2025-08-07 00:00:44,252 - __main__ - INFO -    Row 2: ID=N/A, Deal Name=Ferhat Balfas
+2025-08-07 00:00:44,253 - __main__ - INFO -    Row 3: ID=N/A, Deal Name=Zihe Xia
+2025-08-07 00:00:44,253 - __main__ - INFO - SUCCESS: Verifying data completed
+2025-08-07 00:00:44,254 - __main__ - INFO - STATS: BigQuery Table: arboreal-logic-467306-k0.zoho_crm.deals_complete
+2025-08-07 00:00:44,254 - __main__ - INFO - SCHEMA: Schema Fields: 173
+2025-08-07 00:00:44,255 - __main__ - INFO - READY: Ready for automated sync!

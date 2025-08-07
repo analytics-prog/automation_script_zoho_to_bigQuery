@@ -1,0 +1,40 @@
+2025-08-06 22:54:22,359 - automated_deals_sync - INFO - Successfully obtained Zoho access token
+2025-08-06 22:54:22,361 - automated_deals_sync - INFO - No last sync time found, defaulting to 24 hours ago: 2025-08-05 17:24:22.361451
+2025-08-06 22:54:22,361 - automated_deals_sync - INFO - Fetching deals modified since: 2025-08-05T17:24:22Z
+2025-08-06 22:54:23,119 - automated_deals_sync - INFO - Successfully obtained Zoho access token
+2025-08-06 22:54:24,095 - automated_deals_sync - INFO - Successfully fetched 5 deals from page 1
+2025-08-06 22:54:24,102 - automated_deals_sync - INFO - Updated last sync time to: 2025-08-06 17:24:24.100442
+2025-08-06 22:54:24,114 - automated_deals_sync - INFO - Fetching deals modified since: 2025-08-05T17:24:24Z
+2025-08-06 22:54:24,906 - automated_deals_sync - INFO - Successfully obtained Zoho access token
+2025-08-06 22:54:25,841 - automated_deals_sync - INFO - Successfully fetched 10 deals from page 1
+2025-08-06 22:54:51,490 - automated_deals_sync - INFO - Successfully obtained Zoho access token
+2025-08-06 22:54:54,079 - automated_deals_sync - INFO - Created dataset zoho_crm_data
+2025-08-06 22:54:55,099 - automated_deals_sync - INFO - Created table arboreal-logic-467306-k0.zoho_crm_data.deals
+2025-08-06 22:54:56,886 - automated_deals_sync - INFO - Current record count: 0
+2025-08-06 22:54:56,887 - automated_deals_sync - INFO - No last sync time found, defaulting to 24 hours ago: 2025-08-05 17:24:56.887328
+2025-08-06 22:54:56,887 - automated_deals_sync - INFO - Fetching deals modified since: 2025-08-05T17:24:56Z
+2025-08-06 22:54:57,661 - automated_deals_sync - INFO - Successfully obtained Zoho access token
+2025-08-06 22:54:58,594 - automated_deals_sync - INFO - Successfully fetched 5 deals from page 1
+2025-08-06 22:54:59,918 - automated_deals_sync - INFO - Dataset zoho_crm_data already exists
+2025-08-06 22:55:00,484 - automated_deals_sync - INFO - Table arboreal-logic-467306-k0.zoho_crm_data.deals already exists
+2025-08-06 22:55:00,484 - automated_deals_sync - INFO - No last sync time found, defaulting to 24 hours ago: 2025-08-05 17:25:00.484564
+2025-08-06 22:55:00,484 - automated_deals_sync - INFO - Fetching deals modified since: 2025-08-05T17:25:00Z
+2025-08-06 22:55:01,281 - automated_deals_sync - INFO - Successfully obtained Zoho access token
+2025-08-06 22:55:02,150 - automated_deals_sync - INFO - Successfully fetched 1 deals from page 1
+2025-08-06 22:55:03,522 - automated_deals_sync - INFO - Dataset zoho_crm_data already exists
+2025-08-06 22:55:04,053 - automated_deals_sync - INFO - Table arboreal-logic-467306-k0.zoho_crm_data.deals already exists
+2025-08-06 22:55:05,556 - automated_deals_sync - INFO - Current record count: 0
+2025-08-06 22:55:05,556 - automated_deals_sync - INFO - No last sync time found, defaulting to 24 hours ago: 2025-08-05 17:25:05.556945
+2025-08-06 22:55:05,556 - automated_deals_sync - INFO - Fetching deals modified since: 2025-08-05T17:25:05Z
+2025-08-06 22:55:06,382 - automated_deals_sync - INFO - Successfully obtained Zoho access token
+2025-08-06 22:55:07,317 - automated_deals_sync - INFO - Successfully fetched 3 deals from page 1
+2025-08-06 22:55:08,691 - automated_deals_sync - INFO - Successfully inserted 3 deals with batch ID: b021a3b4-5312-4ea2-8c1c-37013bc08462
+2025-08-06 22:55:11,999 - automated_deals_sync - INFO - Current record count: 3
+2025-08-06 22:55:12,002 - automated_deals_sync - INFO - Updated last sync time to: 2025-08-06 17:25:12.001131
+2025-08-06 22:55:12,014 - automated_deals_sync - INFO - Fetching deals modified since: 2025-08-05T17:25:12Z
+2025-08-06 22:55:12,761 - automated_deals_sync - INFO - Successfully obtained Zoho access token
+2025-08-06 22:55:13,676 - automated_deals_sync - INFO - Successfully fetched 10 deals from page 1
+2025-08-06 22:55:27,759 - automated_deals_sync - INFO - Successfully obtained Zoho access token
+2025-08-07 00:24:24,679 - __main__ - INFO - Leads sync client initialized
+2025-08-07 00:24:24,679 - __main__ - INFO - Deals sync function available
+2025-08-07 00:24:24,721 - __main__ - INFO - Deals complete sync client initialized

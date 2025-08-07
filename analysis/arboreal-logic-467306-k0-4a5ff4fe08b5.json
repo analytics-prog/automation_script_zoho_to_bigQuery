@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "arboreal-logic-467306-k0",
+  "private_key_id": "4a5ff4fe08b586e1f4af9509da88456a768fd5de",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCu1BnXG9zNh0fl\nt4EOA941QBBBydp41iQECoeRi8mml71XMkGdeUihRn23IbdQGvBlciAUypPY8tw8\nR55shhqUqgY1JRU0AusfAQ/f8NQTe5XJe06wuQ1blIMsetOAxyccynZPpYMv0uO7\nUeez5YVi063SB0yhsQdxMWG/qQq5OCbEdYwuNjdnXtR9Le6UmpjYO5xMj0PH48F7\neR4VCqoTKPGEYSCQCFcJX/MuRJVf05D8/PIjDCLOWeZqzzq6sqIsuMhZI4lYNWk6\nYt952j98cTcENgbh22FA9Gad2+kQ/Q9+PwedZfC/YqYg7ih9R5tI4KKTO/DbOb8Q\nxuDPv7EJAgMBAAECggEAGXNWCasMMz1Y2ZejqWslu4HGfBVLASFHX/E6eBUt91sK\nnLl7tNV1nci5v2GgooAxc8sv4Wb2K/R63Cme5fSFxROVUMJDum0cVkicy4BvFyD8\nFrclJvPhfm35xI1i4dHcH0RYAdM57Enajifnv5gPmWnwWW1nmfg/+ZnzPWf54CmP\nRVpzlMjcJxijatSaOVM1Y5gTaPajXSWaYrnj6R5zvW/MGogzQmYeanrXnIfpIkqr\n9O+l1sq6ZOnooMRQ4YUhb5tsW75dtB8Tx/hh/bO1iT4r6Z4ibSjjJNhUTu8bA9gi\nH29JA0wZQMiG9/HYSchEYwHv8Nb9/KHh93Wek2CEmwKBgQDf7TWmU3HZ4Vwn4zfs\not7wHzw2v2W6vxKoyqbeTIiCH34fiOA5lzfYFh9gGlk+0KOkoNmq2xchOjo4PcLm\n9vrXjTMVTdY2YAnWwiCdNU0QKaRyis+E80RlzNe1z9pWMeL/GsgHanf1ZDoRN2pL\nOn2HDQsiS2071Nr0cj4QlD1+7wKBgQDH3piK2By27p/ZF2C1HChk2ptc/ZrC/Gu7\n6CgqJ9YUeVyPj95JXaSCGbXb5+mhOuWJHYG//aedaEVCQy/WMMst89JjkuV+zSmu\n25cQxacqjGeaXZLH4K6PbmJKkGLzsxrsbjbDmC5MlSn08rlLwXP0Pc+ZZvLsQdlc\nopjpiTpPhwKBgFB0jzEqjB6HnS/rsL1CK63E20KkdC2r1010Oo5mmyl9nThBWqb2\nkSb/k9hYvzYViqZs8Kg1vdK/dAmfDzcjCC+IWRFPfSbeTMqvxz4U15J2E9Lf0v3m\n1e1psxttCfqsQ+36tmILu/wcPczPx04uPsnWQujYhu/XY7Aul+QnDw1bAoGAJXpe\n/kIR+Fd8j9erYaqbBHZdha1kVMXCaeTZizYXFZXAPodKtlUh4OdzS34MOBh0LCbl\nSpwEzyZbPlac5LwXjVFYFSXZdNKBy3EPvaxicT8MukxrlqFR+kFHmxXCCFKAbO8p\nw7mIjQG3cWAGUOdAl/7zK5+7U4Pxf0ZaCAicb4cCgYBm6CUEgzNcPpDyZ5ESR8zB\nyuDlH9rgOxT4mwXFuo5lgGLKV4lNxX9EG4LoFX4nodD2Ns6vEWJub3BPkFNLM8bm\nvj+3ToS3zVcOJBiiDnBcDAf/7dk/Oks94OSoCyNswEYeudBXFCmll9kJ7SPOwuXv\nodtOBZGoiUNJI3R0R77oJA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "id-zoho-bigquery-service@arboreal-logic-467306-k0.iam.gserviceaccount.com",
+  "client_id": "105893620339727724219",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/id-zoho-bigquery-service%40arboreal-logic-467306-k0.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

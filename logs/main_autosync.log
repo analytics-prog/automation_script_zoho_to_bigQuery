@@ -1,0 +1,16 @@
+2025-08-07 00:31:11,004 - __main__ - INFO - All clients initialized successfully
+2025-08-07 00:31:12,271 - __main__ - INFO - Dataset zoho_crm already exists
+2025-08-07 00:31:12,817 - __main__ - INFO - Table arboreal-logic-467306-k0.zoho_crm.zoho_leads already exists
+2025-08-07 00:31:14,315 - __main__ - INFO - Created dataset zoho_crm_data
+2025-08-07 00:31:15,416 - __main__ - INFO - Created table arboreal-logic-467306-k0.zoho_crm_data.deals
+2025-08-07 00:31:15,963 - __main__ - INFO - Dataset zoho_crm already exists
+2025-08-07 00:31:16,657 - __main__ - INFO - Table arboreal-logic-467306-k0.zoho_crm.deals_complete already exists
+2025-08-07 00:45:23,142 - __main__ - ERROR - Failed to initialize clients: File e:\upwork\manya\arboreal-logic-467306-k0-4a5ff4fe08b5.json was not found.
+2025-08-07 00:45:23,144 - __main__ - ERROR - Failed to initialize sync system: File e:\upwork\manya\arboreal-logic-467306-k0-4a5ff4fe08b5.json was not found.
+2025-08-07 00:47:09,121 - __main__ - INFO - All clients initialized successfully
+2025-08-07 00:47:10,378 - __main__ - INFO - Dataset zoho_crm already exists
+2025-08-07 00:47:10,878 - __main__ - INFO - Table arboreal-logic-467306-k0.zoho_crm.zoho_leads already exists
+2025-08-07 00:47:11,366 - __main__ - INFO - Dataset zoho_crm_data already exists
+2025-08-07 00:47:11,838 - __main__ - INFO - Table arboreal-logic-467306-k0.zoho_crm_data.deals already exists
+2025-08-07 00:47:12,370 - __main__ - INFO - Dataset zoho_crm already exists
+2025-08-07 00:47:12,888 - __main__ - INFO - Table arboreal-logic-467306-k0.zoho_crm.deals_complete already exists
