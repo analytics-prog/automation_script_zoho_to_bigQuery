@@ -24,9 +24,10 @@ RUN mkdir -p logs
 # Set environment variables
 ENV PYTHONPATH=/app
 ENV PYTHONUNBUFFERED=1
+ENV PORT=8080
 
 # Expose port 8080 for Cloud Run
 EXPOSE 8080
 
 # Default command - runs the Flask web server
-CMD ["gunicorn", "--bind", "0.0.0.0:8080", "--workers", "1", "--timeout", "300", "health_check:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:8080", "--workers", "1", "--timeout", "300", "--preload", "health_check:app"]
