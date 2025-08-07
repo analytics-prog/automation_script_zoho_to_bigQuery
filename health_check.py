@@ -21,6 +21,13 @@ app = Flask(__name__)
 def get_zoho_leads_count():
     """Get count of leads from Zoho CRM"""
     try:
+        # Check if required environment variables are set
+        required_vars = ['ZOHO_CLIENT_ID', 'ZOHO_CLIENT_SECRET', 'ZOHO_REFRESH_TOKEN']
+        missing_vars = [var for var in required_vars if not os.environ.get(var)]
+        
+        if missing_vars:
+            return f"Missing env vars: {', '.join(missing_vars)}"
+        
         # Import Zoho configuration
         sys.path.append('config')
         from config import ZOHO_CONFIG
@@ -68,93 +75,102 @@ def get_zoho_leads_count():
         
         return "Error: Unable to fetch"
         
+    except ImportError as e:
+        return f"Config error: {str(e)}"
     except Exception as e:
         return f"Error: {str(e)}"
 
 def get_bigquery_leads_count():
     """Get count of leads from BigQuery"""
     try:
-        client = bigquery.Client()
-        project_id = os.environ.get('GOOGLE_CLOUD_PROJECT_ID', 'arboreal-logic-467306-k0')
+        # Check if required environment variables are set
+        project_id = os.environ.get('BIGQUERY_PROJECT_ID') or os.environ.get('GOOGLE_CLOUD_PROJECT_ID')
+        if not project_id:
+            return "Missing: BIGQUERY_PROJECT_ID"
         
-        # Try different possible table configurations
-        possible_queries = [
-            f"SELECT COUNT(*) as count FROM `{project_id}.zoho_crm.zoho_leads`",
-            f"SELECT COUNT(*) as count FROM `{project_id}.zoho_crm_data.deals`",
-            f"SELECT COUNT(*) as count FROM `{project_id}.zoho_crm_data.zoho_leads`"
-        ]
+        from google.cloud import bigquery
         
-        for query in possible_queries:
-            try:
-                query_job = client.query(query)
-                results = query_job.result()
-                for row in results:
-                    return row.count
-            except Exception:
-                continue
+        dataset_id = os.environ.get('BIGQUERY_DATASET_ID', 'zoho_crm_data')
+        table_id = os.environ.get('BIGQUERY_TABLE_ID', 'leads')
         
-        return "Table not found"
+        client = bigquery.Client(project=project_id)
         
+        query = f"""
+        SELECT COUNT(*) as count
+        FROM `{project_id}.{dataset_id}.{table_id}`
+        """
+        
+        query_job = client.query(query)
+        results = query_job.result()
+        
+        for row in results:
+            return row.count
+            
+        return 0
     except Exception as e:
         return f"Error: {str(e)}"
 
 def get_bigquery_deals_count():
     """Get count of deals from BigQuery"""
     try:
-        client = bigquery.Client()
-        project_id = os.environ.get('GOOGLE_CLOUD_PROJECT_ID', 'arboreal-logic-467306-k0')
+        # Check if required environment variables are set
+        project_id = os.environ.get('BIGQUERY_PROJECT_ID') or os.environ.get('GOOGLE_CLOUD_PROJECT_ID')
+        if not project_id:
+            return "Missing: BIGQUERY_PROJECT_ID"
         
-        query = f"SELECT COUNT(*) as count FROM `{project_id}.zoho_crm_data.deals`"
+        from google.cloud import bigquery
+        
+        dataset_id = os.environ.get('BIGQUERY_DATASET_ID', 'zoho_crm_data')
+        
+        client = bigquery.Client(project=project_id)
+        
+        query = f"""
+        SELECT COUNT(*) as count
+        FROM `{project_id}.{dataset_id}.deals`
+        """
+        
         query_job = client.query(query)
         results = query_job.result()
         
         for row in results:
             return row.count
-        
+            
         return 0
-        
     except Exception as e:
         return f"Error: {str(e)}"
 
 def get_zoho_deals_count():
     """Get count of deals from Zoho CRM"""
     try:
-        # Get access token
-        token_url = "https://accounts.zoho.com.au/oauth/v2/token"
-        token_data = {
-            'refresh_token': os.environ.get('ZOHO_REFRESH_TOKEN'),
-            'client_id': os.environ.get('ZOHO_CLIENT_ID'),
-            'client_secret': os.environ.get('ZOHO_CLIENT_SECRET'),
-            'grant_type': 'refresh_token'
-        }
+        # Check if required environment variables are set
+        required_vars = ['ZOHO_CLIENT_ID', 'ZOHO_CLIENT_SECRET', 'ZOHO_REFRESH_TOKEN']
+        missing_vars = [var for var in required_vars if not os.environ.get(var)]
         
-        token_response = requests.post(token_url, data=token_data)
-        if token_response.status_code == 200:
-            access_token = token_response.json().get('access_token')
-            
-            headers = {
-                'Authorization': f'Zoho-oauthtoken {access_token}',
-                'Content-Type': 'application/json'
-            }
-            
-            # Get deals count
-            deals_url = "https://www.zohoapis.com.au/crm/v2/Deals"
-            params = {'per_page': 1, 'page': 1}
-            response = requests.get(deals_url, headers=headers, params=params)
-            
-            if response.status_code == 200:
-                data = response.json()
-                info = data.get('info', {})
-                return info.get('count', 0)
+        if missing_vars:
+            return f"Missing env vars: {', '.join(missing_vars)}"
         
-        return "Error: Unable to fetch"
+        from config.config import ZOHO_FIELD_MAPPINGS
+        from scripts.zoho_to_bigquery import ZohoCRMClient
         
+        client = ZohoCRMClient()
+        # Note: You'll need to implement get_all_deals method in ZohoCRMClient
+        # For now, return a placeholder
+        return "N/A (not implemented)"
+    except ImportError as e:
+        return f"Config error: {str(e)}"
     except Exception as e:
         return f"Error: {str(e)}"
 
 @app.route('/')
 def home():
     """Root endpoint with service information and dashboard"""
+    # Check if environment is properly configured
+    required_env_vars = [
+        'ZOHO_CLIENT_ID', 'ZOHO_CLIENT_SECRET', 'ZOHO_REFRESH_TOKEN',
+        'BIGQUERY_PROJECT_ID', 'BIGQUERY_DATASET_ID'
+    ]
+    missing_vars = [var for var in required_env_vars if not os.environ.get(var)]
+    
     # Get live data counts
     zoho_leads = get_zoho_leads_count()
     bigquery_leads = get_bigquery_leads_count()
@@ -292,8 +308,38 @@ def home():
             <div class="status">✅ Your app is working fine!</div>
             
             <button class="refresh-btn" onclick="refreshPage()">🔄 Refresh Data</button>
-            
-            <h2>📈 Data Overview</h2>
+             
+             {f'''
+             <div class="container" style="background: #fff3cd; border: 2px solid #ffc107; margin: 20px 0;">
+                 <h2>⚠️ Setup Required</h2>
+                 <p><strong>Missing Environment Variables:</strong> {", ".join(missing_vars)}</p>
+                 <div style="background: #f8f9fa; padding: 15px; border-radius: 5px; margin: 10px 0;">
+                     <h4>📋 Setup Instructions:</h4>
+                     <ol>
+                         <li><strong>Create .env file:</strong> Copy <code>.env.example</code> to <code>.env</code></li>
+                         <li><strong>Zoho CRM Setup:</strong>
+                             <ul>
+                                 <li>Go to <a href="https://api-console.zoho.com/" target="_blank">Zoho API Console</a></li>
+                                 <li>Create a new application and get Client ID & Secret</li>
+                                 <li>Generate a refresh token for your application</li>
+                             </ul>
+                         </li>
+                         <li><strong>Google Cloud Setup:</strong>
+                             <ul>
+                                 <li>Create a Google Cloud Project</li>
+                                 <li>Enable BigQuery API</li>
+                                 <li>Create a service account and download the JSON key</li>
+                                 <li>Set GOOGLE_APPLICATION_CREDENTIALS to the key file path</li>
+                             </ul>
+                         </li>
+                         <li><strong>Update .env file</strong> with your credentials</li>
+                         <li><strong>Restart the application</strong></li>
+                     </ol>
+                 </div>
+             </div>
+             ''' if missing_vars else ''}
+             
+             <h2>📈 Data Overview</h2>
             <div class="dashboard">
                 <div class="card zoho">
                     <h3>🔴 Zoho CRM Leads</h3>
