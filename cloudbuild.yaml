@@ -1,0 +1,38 @@
+steps:
+  # Build the container image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/$PROJECT_ID/zoho-bigquery-sync', '.']
+  
+  # Push the container image to Container Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'gcr.io/$PROJECT_ID/zoho-bigquery-sync']
+  
+  # Deploy container image to Cloud Run
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+      - 'run'
+      - 'deploy'
+      - 'zoho-bigquery-sync'
+      - '--image'
+      - 'gcr.io/$PROJECT_ID/zoho-bigquery-sync'
+      - '--region'
+      - 'us-central1'
+      - '--platform'
+      - 'managed'
+      - '--allow-unauthenticated'
+      - '--memory'
+      - '1Gi'
+      - '--cpu'
+      - '1'
+      - '--timeout'
+      - '300'
+      - '--max-instances'
+      - '10'
+      - '--set-env-vars'
+      - 'GOOGLE_CLOUD_PROJECT_ID=$PROJECT_ID,BIGQUERY_PROJECT_ID=$PROJECT_ID,BIGQUERY_DATASET_ID=zoho_crm_data,BIGQUERY_TABLE_ID=deals,ZOHO_DOMAIN=com.au'
+      - '--update-secrets'
+      - 'ZOHO_CLIENT_ID=zoho-client-id:latest,ZOHO_CLIENT_SECRET=zoho-client-secret:latest,ZOHO_REFRESH_TOKEN=zoho-refresh-token:latest,GOOGLE_APPLICATION_CREDENTIALS=/secrets/bigquery-credentials=bigquery-credentials:latest'
+
+images:
+  - 'gcr.io/$PROJECT_ID/zoho-bigquery-sync'
