@@ -30,9 +30,9 @@ steps:
       - '--max-instances'
       - '10'
       - '--set-env-vars'
-      - 'GOOGLE_CLOUD_PROJECT_ID=$PROJECT_ID,BIGQUERY_PROJECT_ID=$PROJECT_ID,BIGQUERY_DATASET_ID=zoho_crm_data,BIGQUERY_TABLE_ID=deals,ZOHO_DOMAIN=com.au'
+      - 'GOOGLE_CLOUD_PROJECT_ID=$PROJECT_ID,BIGQUERY_PROJECT_ID=$PROJECT_ID,BIGQUERY_DATASET_ID=zoho_crm,BIGQUERY_TABLE_ID=zoho_leads,ZOHO_DOMAIN=com.au'
       - '--update-secrets'
-      - 'ZOHO_CLIENT_ID=zoho-client-id:latest,ZOHO_CLIENT_SECRET=zoho-client-secret:latest,ZOHO_REFRESH_TOKEN=zoho-refresh-token:latest,GOOGLE_APPLICATION_CREDENTIALS=/secrets/bigquery-credentials=bigquery-credentials:latest'
+      - 'ZOHO_CLIENT_ID=ZOHO_CLIENT_ID:latest,ZOHO_CLIENT_SECRET=ZOHO_CLIENT_SECRET:latest,ZOHO_REFRESH_TOKEN=ZOHO_REFRESH_TOKEN:latest,GOOGLE_APPLICATION_CREDENTIALS=GOOGLE_APPLICATION_CREDENTIALS:latest'
 
 images:
   - 'gcr.io/$PROJECT_ID/zoho-bigquery-sync'
